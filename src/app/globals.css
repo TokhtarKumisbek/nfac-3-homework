@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Theme Styles */
+body.light {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Dark Theme Styles */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark .bg-gray-200 {
+  background-color: #1e1e1e;
+}
+
+.dark .bg-gray-800 {
+  background-color: #2c2c2c;
+}
+
+.dark .text-gray-700 {
+  color: #b0b0b0;
+}
+
+.dark .text-blue-500 {
+  color: #80bfff;
+}
+
+.dark .hover\:text-blue-700:hover {
+  color: #3399ff;
+}
+
+button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
